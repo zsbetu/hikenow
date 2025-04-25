@@ -44,6 +44,10 @@ public class LoginActivity extends AppCompatActivity {
         passwordET = findViewById(R.id.editTextTextPassword);
         loginBT = findViewById(R.id.loginButton);
         regBT = findViewById(R.id.gotoregButton);
+        loginBT.setAlpha(0f);
+        loginBT.animate().alpha(1f).setDuration(1500);
+        regBT.setAlpha(0f);
+        regBT.animate().alpha(1f).setDuration(1500);
 
         loginBT.setOnClickListener(v -> {
             String email = emailET.getText().toString().trim();
