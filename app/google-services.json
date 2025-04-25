@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "386316785066",
+    "project_id": "hikenow-android",
+    "storage_bucket": "hikenow-android.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386316785066:android:2714e0c356028d9b0847d3",
+        "android_client_info": {
+          "package_name": "com.example.hikenow"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBU6vllcKVpp872SBVtV0YXRDB6K8C4yWE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
