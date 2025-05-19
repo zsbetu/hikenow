@@ -1,5 +1,6 @@
 [versions]
-agp = "8.9.2"
+agp = "8.10.0"
+drawerlayout = "1.2.0"
 firebaseBom = "33.12.0"
 junit = "4.13.2"
 junitVersion = "1.2.1"
@@ -19,6 +20,7 @@ activityCompose = "1.10.1"
 composeBom = "2024.09.00"
 
 [libraries]
+drawerlayout = { module = "androidx.drawerlayout:drawerlayout", name = "drawerlayout", version.ref = "drawerlayout"}
 firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
